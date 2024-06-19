@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#textbox {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #218838;
+}
+
+#results-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meal {
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    text-align: left;
+}
+
+.meal img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.meal h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.meal p {
+    margin: 10px 0;
+}
+
+.ingredients {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.ingredients li {
+    list-style-type: disc;
+}
